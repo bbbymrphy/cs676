@@ -1,0 +1,247 @@
+{
+  "https://www.nasa.gov/mission_pages/station/main/index.html": {
+    "url_score": 1.0,
+    "text_score": 0.44999999999999996,
+    "popularity_score": 0.0,
+    "ad_count": 1,
+    "combined_score": 0.635
+  },
+  "https://www.harvard.edu/research/article?id=123": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.56
+  },
+  "https://www.whitehouse.gov/briefing-room/": {
+    "url_score": 1.0,
+    "text_score": 0.45,
+    "popularity_score": 0.0,
+    "ad_count": 1,
+    "combined_score": 0.635
+  },
+  "https://www.wikipedia.org/": {
+    "url_score": 0.85,
+    "text_score": 0.49999999999999994,
+    "popularity_score": 0.19,
+    "ad_count": 0,
+    "combined_score": 0.613
+  },
+  "https://www.who.int/news-room/fact-sheets/detail/coronavirus-disease-(covid-19)": {
+    "url_score": 0.7,
+    "text_score": 0.35,
+    "popularity_score": 0.0,
+    "ad_count": 7,
+    "combined_score": 0.45499999999999996
+  },
+  "https://www.bbc.com/news/world-us-canada-68888712": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.18000000000000002,
+    "ad_count": 0,
+    "combined_score": 0.5960000000000001
+  },
+  "https://www.cnn.com/2025/09/19/tech/apple-iphone-ai-update/index.html": {
+    "url_score": 0.7000000000000001,
+    "text_score": 0.2,
+    "popularity_score": 0.17,
+    "ad_count": 0,
+    "combined_score": 0.44400000000000006
+  },
+  "https://www.nytimes.com/2025/09/19/business/markets/dow-jones.html": {
+    "url_score": 0.9,
+    "text_score": 0.2,
+    "popularity_score": 0.18000000000000002,
+    "ad_count": 0,
+    "combined_score": 0.546
+  },
+  "https://www.reddit.com/r/conspiracy/": {
+    "url_score": 0.5,
+    "text_score": 0.7,
+    "popularity_score": 0.16000000000000003,
+    "ad_count": 0,
+    "combined_score": 0.492
+  },
+  "https://twitter.com/nytimes/status/1234567890": {
+    "url_score": 0.5,
+    "text_score": 0.25,
+    "popularity_score": 0.18000000000000002,
+    "ad_count": 1,
+    "combined_score": 0.361
+  },
+  "https://www.instagram.com/p/abcd1234/": {
+    "url_score": 0.5,
+    "text_score": 0.3,
+    "popularity_score": 0.16000000000000003,
+    "ad_count": 0,
+    "combined_score": 0.372
+  },
+  "https://www.buzzfeed.com/quiz/which-pizza-are-you": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://www.cnn.com/": {
+    "url_score": 0.8,
+    "text_score": 0.35,
+    "popularity_score": 0.17,
+    "ad_count": 8,
+    "combined_score": 0.539
+  },
+  "https://best-health-tips-now.biz/buy-now-free!!!": {
+    "url_score": 0.3,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.21
+  },
+  "https://amazing-deals123.xyz/CLICK-HERE/totally-free": {
+    "url_score": 0.4,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://github.com/openai/gpt-5": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://arxiv.org/abs/2405.12345": {
+    "url_score": 0.85,
+    "text_score": 0.14999999999999997,
+    "popularity_score": 0.0,
+    "ad_count": 3,
+    "combined_score": 0.47
+  },
+  "https://www.techcrunch.com/2025/09/19/startup-funding-round/": {
+    "url_score": 0.7000000000000001,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.41000000000000003
+  },
+  "https://www.apple.com/iphone/": {
+    "url_score": 0.8,
+    "text_score": 0.44999999999999996,
+    "popularity_score": 0.0,
+    "ad_count": 3,
+    "combined_score": 0.535
+  },
+  "https://www.microsoft.com/en-us/security": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://myrandomblogexample.net/2025/09/19/thoughts-on-ai/": {
+    "url_score": 0.6,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.36
+  },
+  "https://johns-cooking-blog.info/recipe-of-the-day": {
+    "url_score": 0.6,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.36
+  },
+  "https://www.cdc.gov/coronavirus/2019-ncov/index.html": {
+    "url_score": 1.0,
+    "text_score": 0.44999999999999996,
+    "popularity_score": 0.0,
+    "ad_count": 1,
+    "combined_score": 0.635
+  },
+  "https://www.nih.gov/news-events": {
+    "url_score": 1.0,
+    "text_score": 0.49999999999999994,
+    "popularity_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.6499999999999999
+  },
+  "https://www.mayoclinic.org/diseases-conditions/coronavirus/symptoms-causes/syc-20479963": {
+    "url_score": 0.85,
+    "text_score": 0.0,
+    "popularity_score": 0.0,
+    "ad_count": 12,
+    "combined_score": 0.425
+  },
+  "https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response": {
+    "url_score": 0.7,
+    "text_score": 0.35,
+    "popularity_score": 0.0,
+    "ad_count": 9,
+    "combined_score": 0.45499999999999996
+  },
+  "https://www.webmd.com/cold-and-flu/default.htm": {
+    "url_score": 0.8,
+    "text_score": 0.6499999999999999,
+    "popularity_score": 0.0,
+    "ad_count": 3,
+    "combined_score": 0.595
+  },
+  "https://www.healthline.com/nutrition/10-benefits-of-exercise": {
+    "url_score": 0.8,
+    "text_score": 0.35,
+    "popularity_score": 0.0,
+    "ad_count": 5,
+    "combined_score": 0.505
+  },
+  "https://www.medicalnewstoday.com/articles/322268": {
+    "url_score": 0.8,
+    "text_score": 0.35,
+    "popularity_score": 0.0,
+    "ad_count": 5,
+    "combined_score": 0.505
+  },
+  "https://www.naturalnews.com/": {
+    "url_score": 0.8,
+    "text_score": 0.35,
+    "popularity_score": 0.0,
+    "ad_count": 4,
+    "combined_score": 0.505
+  },
+  "https://www.drweil.com/health-wellness/balanced-living/healthy-living-tips/": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://draxe.com/nutrition/benefits-of-collagen/": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://miraclecures-4u.biz/buy-now-free!!!": {
+    "url_score": 0.3,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.21
+  },
+  "https://superhealth123.xyz/ultimate-detox-cleanse": {
+    "url_score": 0.4,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://best-diet-pills-now.info/lose-20lbs-fast": {
+    "url_score": 0.6,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.36
+  }
+}

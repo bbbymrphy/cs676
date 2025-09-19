@@ -32,7 +32,7 @@ POPULAR_SITES = {
 
 
 def score_url(url: str) -> float:
-    score = 0.5                         # base score: assume all websites are neutral to start. This could be tweaked down the line.
+    score = 0.5
     parsed = urlparse(url)
     domain = parsed.netloc.lower()
     path = parsed.path
@@ -68,13 +68,10 @@ def score_url(url: str) -> float:
 
 # === Popularity Bonus ===
 def popularity_bonus(domain: str) -> float:
-    """
-    Assigns a credibility bonus based on domain popularity.
-    """
     domain = domain.lower()
     for site, bonus in POPULAR_SITES.items():
         if domain.endswith(site):
-            return bonus * 0.2  # scale bonus so it doesn't dominate
+            return bonus * 0.2
     return 0.0
 
 
@@ -89,7 +86,6 @@ def fetch_page_text(url: str):
 
     soup = BeautifulSoup(resp.text, "html.parser")
 
-    # Remove scripts/styles
     for tag in soup(["script", "style", "noscript"]):
         tag.extract()
 
@@ -99,13 +95,12 @@ def fetch_page_text(url: str):
     ad_tags += [t for t in soup.find_all("span") if "sponsored" in (t.get("class") or [])]
 
     ad_count = len(ad_tags)
-
     text = " ".join(soup.stripped_strings)
     return text, ad_count
 
 
-# === Storage and Credibility Integration ===
-DB_FILE = "url_content_db.json"
+# === Storage ===
+DB_FILE = "url_results_db.json"
 
 def load_storage():
     if os.path.exists(DB_FILE):
@@ -117,34 +112,26 @@ def save_storage(storage):
     with open(DB_FILE, "w") as f:
         json.dump(storage, f, indent=2)
 
+
+# === Credibility Functions ===
 def evaluate_text_credibility(text: str, ad_count: int) -> float:
-    """
-    Content credibility heuristic:
-    - More words → more credible
-    - Spammy phrases / excessive caps → less credible
-    - Ads → lower credibility
-    """
     if not text:
         return 0.2
 
     score = 0.5
     word_count = len(text.split())
 
-    # Length heuristic
     if word_count > 500:
         score += 0.2
     elif word_count < 50:
         score -= 0.2
 
-    # Spammy keywords
     if re.search(r"BUY NOW|CLICK HERE|FREE!!!", text, re.IGNORECASE):
         score -= 0.3
 
-    # Excessive ALL CAPS
     if sum(1 for w in text.split() if w.isupper()) > 20:
         score -= 0.2
 
-    # Advertisement penalty
     if ad_count > 10:
         score -= 0.3
     elif ad_count > 3:
@@ -159,14 +146,10 @@ def score_url_with_content(url: str) -> dict:
     storage = load_storage()
 
     if url in storage:
-        print(f"Using cached content for {url}")
-        page_text = storage[url]["text"]
-        ad_count = storage[url]["ads"]
-    else:
-        page_text, ad_count = fetch_page_text(url)
-        storage[url] = {"text": page_text, "ads": ad_count}
-        save_storage(storage)
+        print(f"Using cached results for {url}")
+        return storage[url]
 
+    page_text, ad_count = fetch_page_text(url)
     parsed = urlparse(url)
     domain = parsed.netloc
 
@@ -174,11 +157,9 @@ def score_url_with_content(url: str) -> dict:
     pop_score = popularity_bonus(domain)
     text_score = evaluate_text_credibility(page_text, ad_count)
 
-    # Adjusted weights: URL heuristics + content + popularity
     combined_score = 0.5 * url_score + 0.3 * text_score + 0.2 * pop_score
 
-    return {
-        "url": url,
+    results = {
         "url_score": url_score,
         "text_score": text_score,
         "popularity_score": pop_score,
@@ -186,6 +167,10 @@ def score_url_with_content(url: str) -> dict:
         "combined_score": combined_score
     }
 
+    storage[url] = results
+    save_storage(storage)
+
+    return results
 
 # === Example Usage ===
 
