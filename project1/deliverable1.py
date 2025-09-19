@@ -1,66 +1,259 @@
-from __future__ import annotations
-from urllib.parse import urlsplit, parse_qs, unquote
-import ipaddress
-import math
 import re
-from typing import Dict, Any
+import json
+import os
+import requests
+from urllib.parse import urlparse
+from bs4 import BeautifulSoup
 
-TRUSTED_TLDS = {
-    "edu", "gov", "mil"
+
+# === URL heuristic scoring ===
+DOMAIN_WEIGHTS = {
+    ".gov": 1.0, ".edu": 0.95, ".org": 0.85, ".com": 0.8,
+    ".net": 0.7, ".info": 0.6, ".xyz": 0.4, ".biz": 0.3,
 }
-COMMON_TLDS = {
-    "com", "org", "net", "io", "co", "ai", "app", "dev"
+SOCIAL_SITES = ["facebook.com", "twitter.com", "x.com", "instagram.com",
+                "tiktok.com", "reddit.com", "linkedin.com", "snapchat.com", "pinterest.com"]
+CREDIBLE_SITES = ["nytimes.com", "bbc.com", "nature.com", "nasa.gov",
+                  "who.int", "mit.edu", "harvard.edu", "whitehouse.gov"]
+
+# === Popular sites (can expand with Tranco/Alexa data) ===
+POPULAR_SITES = {
+    "google.com": 1.0,
+    "youtube.com": 1.0,
+    "wikipedia.org": 0.95,
+    "twitter.com": 0.9,
+    "bbc.com": 0.9,
+    "nytimes.com": 0.9,
+    "cnn.com": 0.85,
+    "reddit.com": 0.8,
+    "instagram.com": 0.8,
+    "linkedin.com": 0.8,
 }
-# ⚠️ Heuristics only; adjust for your use case to avoid unfair bias.
-HIGH_ABUSE_TLDS = {
-    "xyz", "top", "click", "work", "review", "country", "gq", "ml", "cf",
-    "tk", "fit", "loan", "men", "date", "stream", "download", "racing",
-    "bid", "party", "win", "link"
-}
 
-COMMON_SUBDOMAINS = {"www", "m", "blog", "shop", "store", "docs", "support"}
-TRACKING_PARAM_PREFIXES = ("utm_",)
-TRACKING_PARAMS = {"gclid", "fbclid", "mc_eid"}
 
-LONG_TOKEN_RE = re.compile(r"[A-Za-z0-9_\-]{20,}")
-PCT_ENCODE_RE = re.compile(r"%[0-9A-Fa-f]{2}")
+def score_url(url: str) -> float:
+    score = 0.5                         # base score: assume all websites are neutral to start. This could be tweaked down the line.
+    parsed = urlparse(url)
+    domain = parsed.netloc.lower()
+    path = parsed.path
 
-def shannon_entropy(s: str) -> float:
-    if not s:
-        return 0.0
-    from collections import Counter
-    counts = Counter(s)
-    n = len(s)
-    return -sum((c/n) * math.log2(c/n) for c in counts.values())
+    # Domain extension
+    for ext, weight in DOMAIN_WEIGHTS.items():
+        if domain.endswith(ext):
+            score += (weight - 0.5)
+            break
 
-def is_ip(hostname: str) -> bool:
+    # Credible domains
+    if any(domain.endswith(site) for site in CREDIBLE_SITES):
+        score += 0.2
+
+    # Social sites penalty
+    if any(social in domain for social in SOCIAL_SITES):
+        score -= 0.3
+
+    # Complexity penalty
+    path_len = len(path.split("/"))
+    query_len = len(parsed.query.split("&")) if parsed.query else 0
+    if (path_len + query_len) > 10:
+        score -= 0.2
+    elif (path_len + query_len) > 5:
+        score -= 0.1
+
+    # Suspicious domains
+    if len(re.findall(r"[-\d]", domain)) > 5:
+        score -= 0.2
+
+    return max(0.0, min(1.0, score))
+
+
+# === Popularity Bonus ===
+def popularity_bonus(domain: str) -> float:
+    """
+    Assigns a credibility bonus based on domain popularity.
+    """
+    domain = domain.lower()
+    for site, bonus in POPULAR_SITES.items():
+        if domain.endswith(site):
+            return bonus * 0.2  # scale bonus so it doesn't dominate
+    return 0.0
+
+
+# === Content Extraction ===
+def fetch_page_text(url: str):
     try:
-        ipaddress.ip_address(hostname)
-        return True
-    except Exception:
-        return False
+        resp = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
+        resp.raise_for_status()
+    except requests.RequestException as e:
+        print(f"Failed to fetch {url}: {e}")
+        return "", 0
 
-def tld_bucket(hostname: str) -> str:
-    if not hostname or "." not in hostname:
-        return "unknown"
-    labels = hostname.lower().split(".")
-    tld = labels[-1]
-    sld = ".".join(labels[-2:]) if len(labels) >= 2 else tld
-    # handle a couple common 2-level public suffixes if you want
-    if tld in TRUSTED_TLDS or sld.endswith(".gov"):
-        return "trusted"
-    if tld in COMMON_TLDS:
-        return "common"
-    if tld in HIGH_ABUSE_TLDS:
-        return "high_abuse"
-    return "other"
+    soup = BeautifulSoup(resp.text, "html.parser")
 
-def looks_random(token: str) -> bool:
-    if len(token) < 10:
-        return False
-    ent = shannon_entropy(token)
-    digits = sum(ch.isdigit() for ch in token) / len(token)
-    # high entropy and lots of digits often
+    # Remove scripts/styles
+    for tag in soup(["script", "style", "noscript"]):
+        tag.extract()
+
+    # Detect ads
+    ad_tags = soup.find_all(["iframe", "ins"])
+    ad_tags += [t for t in soup.find_all("div") if "ad" in (t.get("class") or []) or "ad" in (t.get("id") or "")]
+    ad_tags += [t for t in soup.find_all("span") if "sponsored" in (t.get("class") or [])]
+
+    ad_count = len(ad_tags)
+
+    text = " ".join(soup.stripped_strings)
+    return text, ad_count
 
 
+# === Storage and Credibility Integration ===
+DB_FILE = "url_content_db.json"
 
+def load_storage():
+    if os.path.exists(DB_FILE):
+        with open(DB_FILE, "r") as f:
+            return json.load(f)
+    return {}
+
+def save_storage(storage):
+    with open(DB_FILE, "w") as f:
+        json.dump(storage, f, indent=2)
+
+def evaluate_text_credibility(text: str, ad_count: int) -> float:
+    """
+    Content credibility heuristic:
+    - More words → more credible
+    - Spammy phrases / excessive caps → less credible
+    - Ads → lower credibility
+    """
+    if not text:
+        return 0.2
+
+    score = 0.5
+    word_count = len(text.split())
+
+    # Length heuristic
+    if word_count > 500:
+        score += 0.2
+    elif word_count < 50:
+        score -= 0.2
+
+    # Spammy keywords
+    if re.search(r"BUY NOW|CLICK HERE|FREE!!!", text, re.IGNORECASE):
+        score -= 0.3
+
+    # Excessive ALL CAPS
+    if sum(1 for w in text.split() if w.isupper()) > 20:
+        score -= 0.2
+
+    # Advertisement penalty
+    if ad_count > 10:
+        score -= 0.3
+    elif ad_count > 3:
+        score -= 0.15
+    elif ad_count > 0:
+        score -= 0.05
+
+    return max(0.0, min(1.0, score))
+
+
+def score_url_with_content(url: str) -> dict:
+    storage = load_storage()
+
+    if url in storage:
+        print(f"Using cached content for {url}")
+        page_text = storage[url]["text"]
+        ad_count = storage[url]["ads"]
+    else:
+        page_text, ad_count = fetch_page_text(url)
+        storage[url] = {"text": page_text, "ads": ad_count}
+        save_storage(storage)
+
+    parsed = urlparse(url)
+    domain = parsed.netloc
+
+    url_score = score_url(url)
+    pop_score = popularity_bonus(domain)
+    text_score = evaluate_text_credibility(page_text, ad_count)
+
+    # Adjusted weights: URL heuristics + content + popularity
+    combined_score = 0.5 * url_score + 0.3 * text_score + 0.2 * pop_score
+
+    return {
+        "url": url,
+        "url_score": url_score,
+        "text_score": text_score,
+        "popularity_score": pop_score,
+        "ad_count": ad_count,
+        "combined_score": combined_score
+    }
+
+
+# === Example Usage ===
+
+if __name__ == "__main__":
+    test_urls = [
+        # High credibility .gov / .edu
+        "https://www.nasa.gov/mission_pages/station/main/index.html",
+        "https://www.harvard.edu/research/article?id=123",
+        "https://www.whitehouse.gov/briefing-room/",
+        
+        # Well-known .org sites
+        "https://www.wikipedia.org/",
+        "https://www.who.int/news-room/fact-sheets/detail/coronavirus-disease-(covid-19)",
+        
+        # News outlets
+        "https://www.bbc.com/news/world-us-canada-68888712",
+        "https://www.cnn.com/2025/09/19/tech/apple-iphone-ai-update/index.html",
+        "https://www.nytimes.com/2025/09/19/business/markets/dow-jones.html",
+        
+        # Social media (should get lower score)
+        "https://www.reddit.com/r/conspiracy/",
+        "https://twitter.com/nytimes/status/1234567890",
+        "https://www.instagram.com/p/abcd1234/",
+        
+        # Commercial .com with ads
+        "https://www.buzzfeed.com/quiz/which-pizza-are-you",
+        "https://www.cnn.com/",
+        
+        # Clickbait / spammy patterns
+        "https://best-health-tips-now.biz/buy-now-free!!!",
+        "https://amazing-deals123.xyz/CLICK-HERE/totally-free",
+        
+        # Tech sites
+        "https://github.com/openai/gpt-5",
+        "https://arxiv.org/abs/2405.12345",
+        "https://www.techcrunch.com/2025/09/19/startup-funding-round/",
+        
+        # Corporate sites
+        "https://www.apple.com/iphone/",
+        "https://www.microsoft.com/en-us/security",
+        
+        # Random blog (lower credibility)
+        "https://myrandomblogexample.net/2025/09/19/thoughts-on-ai/",
+        "https://johns-cooking-blog.info/recipe-of-the-day",
+
+        # Health information (some credible, some not)
+        "https://www.cdc.gov/coronavirus/2019-ncov/index.html",
+        "https://www.nih.gov/news-events",
+        "https://www.mayoclinic.org/diseases-conditions/coronavirus/symptoms-causes/syc-20479963",
+        "https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response",
+
+        
+        "https://www.webmd.com/cold-and-flu/default.htm",
+        "https://www.healthline.com/nutrition/10-benefits-of-exercise",
+        "https://www.medicalnewstoday.com/articles/322268",
+
+        
+        "https://www.naturalnews.com/",
+        "https://www.drweil.com/health-wellness/balanced-living/healthy-living-tips/",
+        "https://draxe.com/nutrition/benefits-of-collagen/",
+
+      
+        "https://miraclecures-4u.biz/buy-now-free!!!",
+        "https://superhealth123.xyz/ultimate-detox-cleanse",
+        "https://best-diet-pills-now.info/lose-20lbs-fast"
+
+    ]
+
+    for u in test_urls:
+        result = score_url_with_content(u)
+        print(json.dumps(result, indent=2))
