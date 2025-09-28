@@ -4,6 +4,8 @@ import os
 import requests
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
+import pandas as pd
+import networkx as nx
 
 
 # === URL heuristic scoring ===
@@ -126,7 +128,7 @@ def evaluate_text_credibility(text: str, ad_count: int) -> float:
     elif word_count < 50:
         score -= 0.2
 
-    if re.search(r"BUY NOW|CLICK HERE|FREE!!!", text, re.IGNORECASE):
+    if re.search(r"BUY NOW|CLICK HERE|FREE", text, re.IGNORECASE):
         score -= 0.3
 
     if sum(1 for w in text.split() if w.isupper()) > 20:
@@ -142,11 +144,24 @@ def evaluate_text_credibility(text: str, ad_count: int) -> float:
     return max(0.0, min(1.0, score))
 
 
-def score_url_with_content(url: str) -> dict:
+# === Compute PageRank across all URLs ===
+def compute_pagerank(urls):
+    G = nx.DiGraph()
+    for i, u1 in enumerate(urls):
+        for j, u2 in enumerate(urls):
+            if i != j:
+                G.add_edge(u1, u2)
+    pr = nx.pagerank(G, alpha=0.85)
+    # Normalize 0–1
+    min_pr, max_pr = min(pr.values()), max(pr.values())
+    return {u: (score - min_pr) / (max_pr - min_pr + 1e-9) for u, score in pr.items()}
+
+
+# === Combined scoring with PageRank ===
+def score_url_with_content(url: str, pagerank_scores=None) -> dict:
     storage = load_storage()
 
     if url in storage:
-        print(f"Using cached results for {url}")
         return storage[url]
 
     page_text, ad_count = fetch_page_text(url)
@@ -156,13 +171,20 @@ def score_url_with_content(url: str) -> dict:
     url_score = score_url(url)
     pop_score = popularity_bonus(domain)
     text_score = evaluate_text_credibility(page_text, ad_count)
+    pr_score = pagerank_scores.get(url, 0.5) if pagerank_scores else 0.5
 
-    combined_score = 0.5 * url_score + 0.3 * text_score + 0.2 * pop_score
+    combined_score = (
+        0.4 * url_score +
+        0.3 * text_score +
+        0.2 * pop_score +
+        0.1 * pr_score
+    )
 
     results = {
         "url_score": url_score,
         "text_score": text_score,
         "popularity_score": pop_score,
+        "pagerank_score": pr_score,
         "ad_count": ad_count,
         "combined_score": combined_score
     }
@@ -172,9 +194,10 @@ def score_url_with_content(url: str) -> dict:
 
     return results
 
-# === Example Usage ===
+
 
 if __name__ == "__main__":
+    test_urls = list(pd.read_csv('urls_from_tranco.csv')['url'])
     test_urls = [
         # High credibility .gov / .edu
         "https://www.nasa.gov/mission_pages/station/main/index.html",
@@ -239,6 +262,17 @@ if __name__ == "__main__":
 
     ]
 
+    # Compute PageRank once for all URLs
+
+    test_urls = pd.read_csv('back_pain_urls.csv')['URL'].tolist()
+    print(test_urls)
+    pagerank_scores = compute_pagerank(test_urls)
+
+
+
     for u in test_urls:
-        result = score_url_with_content(u)
-        print(json.dumps(result, indent=2))
+        try:
+            result = score_url_with_content(u, pagerank_scores=pagerank_scores)
+            print(json.dumps(result, indent=2))
+        except Exception as e:
+            print(e)

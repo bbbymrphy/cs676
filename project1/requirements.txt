@@ -1,7 +1,13 @@
-beautifulsoup4==4.13.5
-joblib==1.5.2
-numpy==2.3.3
-pandas==2.3.2
-Requests==2.32.5
-scikit_learn==1.7.2
-tldextract==5.3.0
+# Runtime dependencies for project1 (deliverable1.py + sensitivity analysis)
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+pandas>=2.0.0
+networkx>=3.0
+numpy>=1.25.0
+matplotlib>=3.7.0
+lxml>=4.9.0
+
+# Optional / dev (uncomment to install)
+# pytest>=7.2.0
+# requests-mock>=1.10.0
+# pytest-mock>=3.10.0
