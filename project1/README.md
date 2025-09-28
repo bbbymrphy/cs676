@@ -7,7 +7,7 @@ Summary
 
 Repository layout (project1/)
 - deliverable1.py        — Main scoring pipeline and helpers (domain heuristics, content extraction, PageRank, combined scoring).
-- urls_from_tranco.csv  — Input CSV of candidate URLs (runtime; column name: `url`).
+- back_pain_urls.csv  — Input CSV of candidate URLs (runtime; column name: `url`).
 - url_results_db.json   — Local JSON cache written by `deliverable1.py`.
 - sensitivity_analysis.py (recommended) — Script to run sensitivity experiments on heuristic parameters and weights (generate CSV + PNG results). (See "Sensitivity analysis" section.)
 - README.md             — This file.
