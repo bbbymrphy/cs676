@@ -1,13 +1,10 @@
-# Runtime dependencies for project1 (deliverable1.py + sensitivity analysis)
+# URL Credibility Analyzer - Dependencies
+# Compatible with local development and Hugging Face Spaces deployment
+streamlit>=1.30.0
+anthropic>=0.18.0
 requests>=2.31.0
 beautifulsoup4>=4.12.2
 pandas>=2.0.0
 networkx>=3.0
 numpy>=1.25.0
-matplotlib>=3.7.0
 lxml>=4.9.0
-
-# Optional / dev (uncomment to install)
-# pytest>=7.2.0
-# requests-mock>=1.10.0
-# pytest-mock>=3.10.0
