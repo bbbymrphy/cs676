@@ -6,6 +6,10 @@ from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 import pandas as pd
 import networkx as nx
+import warnings
+
+# Suppress all warnings
+warnings.filterwarnings("ignore")
 
 
 # === URL heuristic scoring ===

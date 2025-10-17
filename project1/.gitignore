@@ -1,40 +1,25 @@
-# API Keys and Environment Variables
-.env
-key.py
-*.key
-
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-env/
-venv/
-ENV/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
-.installed.cfg
-*.egg
+dist/
+build/
 
-# Streamlit
-.streamlit/
+# Virtual Environment
+venv/
+env/
+ENV/
 
-# Database
-url_results_db.json
-*.db
-*.sqlite
+# Models and Data
+models/*.pth
+models/*.pkl
+*.pth
+*.pkl
+data/*.csv
+data/*.json
 
 # IDE
 .vscode/
@@ -47,11 +32,8 @@ url_results_db.json
 .DS_Store
 Thumbs.db
 
-# Testing
-.pytest_cache/
-.coverage
-htmlcov/
+# Logs
+*.log
 
-# Data files (optional - uncomment if you don't want to commit data)
-# *.csv
-# *.json
+# Environment
+.env
