@@ -1,0 +1,2722 @@
+{
+  "URL": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "Domain": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "Estimated_Quality": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://mayoclinic.org/back-pain/article-0": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://who.int/back-pain/article-1": {
+    "url_score": 0.7,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.33999999999999997
+  },
+  "https://cdc.gov/back-pain/article-2": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://nih.gov/back-pain/article-3": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://ninds.nih.gov/back-pain/article-4": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://hopkinsmedicine.org/back-pain/article-5": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://clevelandclinic.org/back-pain/article-6": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://stanfordhealthcare.org/back-pain/article-7": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://health.harvard.edu/back-pain/article-8": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://bmj.com/back-pain/article-9": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://cochranelibrary.com/back-pain/article-10": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/back-pain/article-11": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://aafp.org/back-pain/article-12": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://rheumatology.org/back-pain/article-13": {
+    "url_score": 0.85,
+    "text_score": 0.5,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.49
+  },
+  "https://arthritis.org/back-pain/article-14": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://versusarthritis.org/back-pain/article-15": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://nhs.uk/back-pain/article-16": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://nia.nih.gov/back-pain/article-17": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://mayoclinic.org/back-pain/article-18": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://who.int/back-pain/article-19": {
+    "url_score": 0.7,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.33999999999999997
+  },
+  "https://cdc.gov/back-pain/article-20": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://nih.gov/back-pain/article-21": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://ninds.nih.gov/back-pain/article-22": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://hopkinsmedicine.org/back-pain/article-23": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://clevelandclinic.org/back-pain/article-24": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://stanfordhealthcare.org/back-pain/article-25": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://health.harvard.edu/back-pain/article-26": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://bmj.com/back-pain/article-27": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://cochranelibrary.com/back-pain/article-28": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/back-pain/article-29": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://aafp.org/back-pain/article-30": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://rheumatology.org/back-pain/article-31": {
+    "url_score": 0.85,
+    "text_score": 0.5,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.49
+  },
+  "https://arthritis.org/back-pain/article-32": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://versusarthritis.org/back-pain/article-33": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://nhs.uk/back-pain/article-34": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://nia.nih.gov/back-pain/article-35": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://mayoclinic.org/back-pain/article-36": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://who.int/back-pain/article-37": {
+    "url_score": 0.7,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.33999999999999997
+  },
+  "https://cdc.gov/back-pain/article-38": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://nih.gov/back-pain/article-39": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://ninds.nih.gov/back-pain/article-40": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://hopkinsmedicine.org/back-pain/article-41": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://clevelandclinic.org/back-pain/article-42": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://stanfordhealthcare.org/back-pain/article-43": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://health.harvard.edu/back-pain/article-44": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://bmj.com/back-pain/article-45": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://cochranelibrary.com/back-pain/article-46": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/back-pain/article-47": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://aafp.org/back-pain/article-48": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://rheumatology.org/back-pain/article-49": {
+    "url_score": 0.85,
+    "text_score": 0.5,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.49
+  },
+  "https://arthritis.org/back-pain/article-50": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://versusarthritis.org/back-pain/article-51": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://nhs.uk/back-pain/article-52": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://nia.nih.gov/back-pain/article-53": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://mayoclinic.org/back-pain/article-54": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://who.int/back-pain/article-55": {
+    "url_score": 0.7,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.33999999999999997
+  },
+  "https://cdc.gov/back-pain/article-56": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://nih.gov/back-pain/article-57": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://ninds.nih.gov/back-pain/article-58": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://hopkinsmedicine.org/back-pain/article-59": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://clevelandclinic.org/back-pain/article-60": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://stanfordhealthcare.org/back-pain/article-61": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://health.harvard.edu/back-pain/article-62": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://bmj.com/back-pain/article-63": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://cochranelibrary.com/back-pain/article-64": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/back-pain/article-65": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://aafp.org/back-pain/article-66": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://rheumatology.org/back-pain/article-67": {
+    "url_score": 0.85,
+    "text_score": 0.5,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.49
+  },
+  "https://arthritis.org/back-pain/article-68": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://versusarthritis.org/back-pain/article-69": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://nhs.uk/back-pain/article-70": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://nia.nih.gov/back-pain/article-71": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://mayoclinic.org/back-pain/article-72": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://who.int/back-pain/article-73": {
+    "url_score": 0.7,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.33999999999999997
+  },
+  "https://cdc.gov/back-pain/article-74": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://nih.gov/back-pain/article-75": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://ninds.nih.gov/back-pain/article-76": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://hopkinsmedicine.org/back-pain/article-77": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://clevelandclinic.org/back-pain/article-78": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://stanfordhealthcare.org/back-pain/article-79": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://health.harvard.edu/back-pain/article-80": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://bmj.com/back-pain/article-81": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://cochranelibrary.com/back-pain/article-82": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/back-pain/article-83": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://aafp.org/back-pain/article-84": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://rheumatology.org/back-pain/article-85": {
+    "url_score": 0.85,
+    "text_score": 0.5,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.49
+  },
+  "https://arthritis.org/back-pain/article-86": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://versusarthritis.org/back-pain/article-87": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://nhs.uk/back-pain/article-88": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://nia.nih.gov/back-pain/article-89": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://mayoclinic.org/back-pain/article-90": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://who.int/back-pain/article-91": {
+    "url_score": 0.7,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.33999999999999997
+  },
+  "https://cdc.gov/back-pain/article-92": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://nih.gov/back-pain/article-93": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://ninds.nih.gov/back-pain/article-94": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://hopkinsmedicine.org/back-pain/article-95": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://clevelandclinic.org/back-pain/article-96": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://stanfordhealthcare.org/back-pain/article-97": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://health.harvard.edu/back-pain/article-98": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://bmj.com/back-pain/article-99": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://cochranelibrary.com/back-pain/article-100": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/back-pain/article-101": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://aafp.org/back-pain/article-102": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://rheumatology.org/back-pain/article-103": {
+    "url_score": 0.85,
+    "text_score": 0.5,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.49
+  },
+  "https://arthritis.org/back-pain/article-104": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://versusarthritis.org/back-pain/article-105": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://nhs.uk/back-pain/article-106": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://nia.nih.gov/back-pain/article-107": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://mayoclinic.org/back-pain/article-108": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://who.int/back-pain/article-109": {
+    "url_score": 0.7,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.33999999999999997
+  },
+  "https://cdc.gov/back-pain/article-110": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://nih.gov/back-pain/article-111": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://ninds.nih.gov/back-pain/article-112": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://hopkinsmedicine.org/back-pain/article-113": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://clevelandclinic.org/back-pain/article-114": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://stanfordhealthcare.org/back-pain/article-115": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://health.harvard.edu/back-pain/article-116": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://bmj.com/back-pain/article-117": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://cochranelibrary.com/back-pain/article-118": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/back-pain/article-119": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://aafp.org/back-pain/article-120": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://rheumatology.org/back-pain/article-121": {
+    "url_score": 0.85,
+    "text_score": 0.5,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.49
+  },
+  "https://arthritis.org/back-pain/article-122": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://versusarthritis.org/back-pain/article-123": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://nhs.uk/back-pain/article-124": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://nia.nih.gov/back-pain/article-125": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://mayoclinic.org/back-pain/article-126": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://who.int/back-pain/article-127": {
+    "url_score": 0.7,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.33999999999999997
+  },
+  "https://cdc.gov/back-pain/article-128": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://nih.gov/back-pain/article-129": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://ninds.nih.gov/back-pain/article-130": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://hopkinsmedicine.org/back-pain/article-131": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://clevelandclinic.org/back-pain/article-132": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://stanfordhealthcare.org/back-pain/article-133": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://health.harvard.edu/back-pain/article-134": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://bmj.com/back-pain/article-135": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://cochranelibrary.com/back-pain/article-136": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/back-pain/article-137": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://aafp.org/back-pain/article-138": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://rheumatology.org/back-pain/article-139": {
+    "url_score": 0.85,
+    "text_score": 0.5,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.49
+  },
+  "https://arthritis.org/back-pain/article-140": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://versusarthritis.org/back-pain/article-141": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://nhs.uk/back-pain/article-142": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://nia.nih.gov/back-pain/article-143": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://mayoclinic.org/back-pain/article-144": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://who.int/back-pain/article-145": {
+    "url_score": 0.7,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.33999999999999997
+  },
+  "https://cdc.gov/back-pain/article-146": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://nih.gov/back-pain/article-147": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://ninds.nih.gov/back-pain/article-148": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://hopkinsmedicine.org/back-pain/article-149": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://clevelandclinic.org/back-pain/article-150": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://stanfordhealthcare.org/back-pain/article-151": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://health.harvard.edu/back-pain/article-152": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://bmj.com/back-pain/article-153": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://cochranelibrary.com/back-pain/article-154": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/back-pain/article-155": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://aafp.org/back-pain/article-156": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://rheumatology.org/back-pain/article-157": {
+    "url_score": 0.85,
+    "text_score": 0.5,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.49
+  },
+  "https://arthritis.org/back-pain/article-158": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://versusarthritis.org/back-pain/article-159": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://nhs.uk/back-pain/article-160": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://nia.nih.gov/back-pain/article-161": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://mayoclinic.org/back-pain/article-162": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://who.int/back-pain/article-163": {
+    "url_score": 0.7,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.33999999999999997
+  },
+  "https://cdc.gov/back-pain/article-164": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://nih.gov/back-pain/article-165": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://ninds.nih.gov/back-pain/article-166": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://hopkinsmedicine.org/back-pain/article-167": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://clevelandclinic.org/back-pain/article-168": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://stanfordhealthcare.org/back-pain/article-169": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://health.harvard.edu/back-pain/article-170": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://bmj.com/back-pain/article-171": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://cochranelibrary.com/back-pain/article-172": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/back-pain/article-173": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://aafp.org/back-pain/article-174": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://rheumatology.org/back-pain/article-175": {
+    "url_score": 0.85,
+    "text_score": 0.5,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.49
+  },
+  "https://arthritis.org/back-pain/article-176": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://versusarthritis.org/back-pain/article-177": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://nhs.uk/back-pain/article-178": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://nia.nih.gov/back-pain/article-179": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://mayoclinic.org/back-pain/article-180": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://who.int/back-pain/article-181": {
+    "url_score": 0.7,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.33999999999999997
+  },
+  "https://cdc.gov/back-pain/article-182": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://nih.gov/back-pain/article-183": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://ninds.nih.gov/back-pain/article-184": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://hopkinsmedicine.org/back-pain/article-185": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://clevelandclinic.org/back-pain/article-186": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://stanfordhealthcare.org/back-pain/article-187": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://health.harvard.edu/back-pain/article-188": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://bmj.com/back-pain/article-189": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://cochranelibrary.com/back-pain/article-190": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/back-pain/article-191": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://aafp.org/back-pain/article-192": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://rheumatology.org/back-pain/article-193": {
+    "url_score": 0.85,
+    "text_score": 0.5,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.49
+  },
+  "https://arthritis.org/back-pain/article-194": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://versusarthritis.org/back-pain/article-195": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://nhs.uk/back-pain/article-196": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://nia.nih.gov/back-pain/article-197": {
+    "url_score": 1.0,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.46
+  },
+  "https://mayoclinic.org/back-pain/article-198": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://who.int/back-pain/article-199": {
+    "url_score": 0.7,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.33999999999999997
+  },
+  "https://healthline.com/health/back-pain/0": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://webmd.com/health/back-pain/1": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://spine-health.com/health/back-pain/2": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://everydayhealth.com/health/back-pain/3": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://medicalnewstoday.com/health/back-pain/4": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://emedicinehealth.com/health/back-pain/5": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://medscape.com/health/back-pain/6": {
+    "url_score": 0.8,
+    "text_score": 0.3,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.41000000000000003
+  },
+  "https://verywellhealth.com/health/back-pain/7": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://painclinic.org/health/back-pain/8": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://patient.info/health/back-pain/9": {
+    "url_score": 0.6,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.3
+  },
+  "https://orthoinfo.aaos.org/health/back-pain/10": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://betterhealth.vic.gov.au/health/back-pain/11": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://healthdirect.gov.au/health/back-pain/12": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://uptodate.com/health/back-pain/13": {
+    "url_score": 0.8,
+    "text_score": 0.3,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.41000000000000003
+  },
+  "https://emedicine.medscape.com/health/back-pain/14": {
+    "url_score": 0.8,
+    "text_score": 0.3,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.41000000000000003
+  },
+  "https://livescience.com/health/back-pain/15": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://timesofindia.indiatimes.com/health/back-pain/16": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://news-medical.net/health/back-pain/17": {
+    "url_score": 0.7,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.33999999999999997
+  },
+  "https://healthline.com/health/back-pain/18": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://webmd.com/health/back-pain/19": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://spine-health.com/health/back-pain/20": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://everydayhealth.com/health/back-pain/21": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://medicalnewstoday.com/health/back-pain/22": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://emedicinehealth.com/health/back-pain/23": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://medscape.com/health/back-pain/24": {
+    "url_score": 0.8,
+    "text_score": 0.3,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.41000000000000003
+  },
+  "https://verywellhealth.com/health/back-pain/25": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://painclinic.org/health/back-pain/26": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://patient.info/health/back-pain/27": {
+    "url_score": 0.6,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.3
+  },
+  "https://orthoinfo.aaos.org/health/back-pain/28": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://betterhealth.vic.gov.au/health/back-pain/29": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://healthdirect.gov.au/health/back-pain/30": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://uptodate.com/health/back-pain/31": {
+    "url_score": 0.8,
+    "text_score": 0.3,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.41000000000000003
+  },
+  "https://emedicine.medscape.com/health/back-pain/32": {
+    "url_score": 0.8,
+    "text_score": 0.3,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.41000000000000003
+  },
+  "https://livescience.com/health/back-pain/33": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://timesofindia.indiatimes.com/health/back-pain/34": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://news-medical.net/health/back-pain/35": {
+    "url_score": 0.7,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.33999999999999997
+  },
+  "https://healthline.com/health/back-pain/36": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://webmd.com/health/back-pain/37": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://spine-health.com/health/back-pain/38": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://everydayhealth.com/health/back-pain/39": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://medicalnewstoday.com/health/back-pain/40": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://emedicinehealth.com/health/back-pain/41": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://medscape.com/health/back-pain/42": {
+    "url_score": 0.8,
+    "text_score": 0.3,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.41000000000000003
+  },
+  "https://verywellhealth.com/health/back-pain/43": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://painclinic.org/health/back-pain/44": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://patient.info/health/back-pain/45": {
+    "url_score": 0.6,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.3
+  },
+  "https://orthoinfo.aaos.org/health/back-pain/46": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://betterhealth.vic.gov.au/health/back-pain/47": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://healthdirect.gov.au/health/back-pain/48": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://uptodate.com/health/back-pain/49": {
+    "url_score": 0.8,
+    "text_score": 0.3,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.41000000000000003
+  },
+  "https://emedicine.medscape.com/health/back-pain/50": {
+    "url_score": 0.8,
+    "text_score": 0.3,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.41000000000000003
+  },
+  "https://livescience.com/health/back-pain/51": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://timesofindia.indiatimes.com/health/back-pain/52": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://news-medical.net/health/back-pain/53": {
+    "url_score": 0.7,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.33999999999999997
+  },
+  "https://healthline.com/health/back-pain/54": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://webmd.com/health/back-pain/55": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://spine-health.com/health/back-pain/56": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://everydayhealth.com/health/back-pain/57": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://medicalnewstoday.com/health/back-pain/58": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://emedicinehealth.com/health/back-pain/59": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://medscape.com/health/back-pain/60": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://verywellhealth.com/health/back-pain/61": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://painclinic.org/health/back-pain/62": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://patient.info/health/back-pain/63": {
+    "url_score": 0.6,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.3
+  },
+  "https://orthoinfo.aaos.org/health/back-pain/64": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://betterhealth.vic.gov.au/health/back-pain/65": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://healthdirect.gov.au/health/back-pain/66": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://uptodate.com/health/back-pain/67": {
+    "url_score": 0.8,
+    "text_score": 0.3,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.41000000000000003
+  },
+  "https://emedicine.medscape.com/health/back-pain/68": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://livescience.com/health/back-pain/69": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://timesofindia.indiatimes.com/health/back-pain/70": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://news-medical.net/health/back-pain/71": {
+    "url_score": 0.7,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.33999999999999997
+  },
+  "https://healthline.com/health/back-pain/72": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://webmd.com/health/back-pain/73": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://spine-health.com/health/back-pain/74": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://everydayhealth.com/health/back-pain/75": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://medicalnewstoday.com/health/back-pain/76": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://emedicinehealth.com/health/back-pain/77": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://medscape.com/health/back-pain/78": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://verywellhealth.com/health/back-pain/79": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://painclinic.org/health/back-pain/80": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://patient.info/health/back-pain/81": {
+    "url_score": 0.6,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.3
+  },
+  "https://orthoinfo.aaos.org/health/back-pain/82": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://betterhealth.vic.gov.au/health/back-pain/83": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://healthdirect.gov.au/health/back-pain/84": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://uptodate.com/health/back-pain/85": {
+    "url_score": 0.8,
+    "text_score": 0.3,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.41000000000000003
+  },
+  "https://emedicine.medscape.com/health/back-pain/86": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://livescience.com/health/back-pain/87": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://timesofindia.indiatimes.com/health/back-pain/88": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://news-medical.net/health/back-pain/89": {
+    "url_score": 0.7,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.33999999999999997
+  },
+  "https://healthline.com/health/back-pain/90": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://webmd.com/health/back-pain/91": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://spine-health.com/health/back-pain/92": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://everydayhealth.com/health/back-pain/93": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://medicalnewstoday.com/health/back-pain/94": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://emedicinehealth.com/health/back-pain/95": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://medscape.com/health/back-pain/96": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://verywellhealth.com/health/back-pain/97": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://painclinic.org/health/back-pain/98": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://patient.info/health/back-pain/99": {
+    "url_score": 0.6,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.3
+  },
+  "https://orthoinfo.aaos.org/health/back-pain/100": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://betterhealth.vic.gov.au/health/back-pain/101": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://healthdirect.gov.au/health/back-pain/102": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://uptodate.com/health/back-pain/103": {
+    "url_score": 0.8,
+    "text_score": 0.3,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.41000000000000003
+  },
+  "https://emedicine.medscape.com/health/back-pain/104": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://livescience.com/health/back-pain/105": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://timesofindia.indiatimes.com/health/back-pain/106": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://news-medical.net/health/back-pain/107": {
+    "url_score": 0.7,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.33999999999999997
+  },
+  "https://healthline.com/health/back-pain/108": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://webmd.com/health/back-pain/109": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://spine-health.com/health/back-pain/110": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://everydayhealth.com/health/back-pain/111": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://medicalnewstoday.com/health/back-pain/112": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://emedicinehealth.com/health/back-pain/113": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://medscape.com/health/back-pain/114": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://verywellhealth.com/health/back-pain/115": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://painclinic.org/health/back-pain/116": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://patient.info/health/back-pain/117": {
+    "url_score": 0.6,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.3
+  },
+  "https://orthoinfo.aaos.org/health/back-pain/118": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://betterhealth.vic.gov.au/health/back-pain/119": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://healthdirect.gov.au/health/back-pain/120": {
+    "url_score": 0.5,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.26
+  },
+  "https://uptodate.com/health/back-pain/121": {
+    "url_score": 0.8,
+    "text_score": 0.3,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.41000000000000003
+  },
+  "https://emedicine.medscape.com/health/back-pain/122": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://livescience.com/health/back-pain/123": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://timesofindia.indiatimes.com/health/back-pain/124": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://news-medical.net/health/back-pain/125": {
+    "url_score": 0.7,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.33999999999999997
+  },
+  "https://healthline.com/health/back-pain/126": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://webmd.com/health/back-pain/127": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://spine-health.com/health/back-pain/128": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://everydayhealth.com/health/back-pain/129": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://medicalnewstoday.com/health/back-pain/130": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://emedicinehealth.com/health/back-pain/131": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://medscape.com/health/back-pain/132": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://verywellhealth.com/health/back-pain/133": {
+    "url_score": 0.8,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.38000000000000006
+  },
+  "https://painclinic.org/health/back-pain/134": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  },
+  "https://patient.info/health/back-pain/135": {
+    "url_score": 0.6,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.3
+  },
+  "https://orthoinfo.aaos.org/health/back-pain/136": {
+    "url_score": 0.85,
+    "text_score": 0.2,
+    "popularity_score": 0.0,
+    "pagerank_score": 0.0,
+    "ad_count": 0,
+    "combined_score": 0.4
+  }
+}
