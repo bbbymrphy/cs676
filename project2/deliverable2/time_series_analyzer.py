@@ -517,11 +517,11 @@ class TimeSeriesAnalyzer:
 
         # Find best model
         best_model = comparison_df.index[0]
-        print(f"\n<Æ Best Model: {best_model}")
+        print(f"\nBest Model: {best_model}")
         print(f"   RMSE: {comparison_df.loc[best_model, 'RMSE']:.4f}")
         print(f"   MAE: {comparison_df.loc[best_model, 'MAE']:.4f}")
         print(f"   MAPE: {comparison_df.loc[best_model, 'MAPE']:.2f}%")
-        print(f"   R²: {comparison_df.loc[best_model, 'R2']:.4f}")
+        print(f"   R2: {comparison_df.loc[best_model, 'R2']:.4f}")
 
         return self
 
@@ -667,7 +667,7 @@ class TimeSeriesAnalyzer:
                 f.write(f"  RMSE: {comparison_df.loc[best_model, 'RMSE']:.4f}\n")
                 f.write(f"  MAE: {comparison_df.loc[best_model, 'MAE']:.4f}\n")
                 f.write(f"  MAPE: {comparison_df.loc[best_model, 'MAPE']:.2f}%\n")
-                f.write(f"  R²: {comparison_df.loc[best_model, 'R2']:.4f}\n\n")
+                f.write(f"  R2: {comparison_df.loc[best_model, 'R2']:.4f}\n\n")
 
         print(f"\nReport saved: {filename}")
 

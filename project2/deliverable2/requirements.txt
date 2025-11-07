@@ -6,10 +6,12 @@ seaborn>=0.12.0
 
 # Statistical and time series analysis
 statsmodels>=0.14.0
-scikit-learn>=1.3.0
 scipy>=1.11.0
 
-# Forecasting models
+# Machine Learning
+scikit-learn>=1.3.0
+
+# Forecasting models (optional but recommended)
 prophet>=1.1.5
 
 # Gradio frontend
