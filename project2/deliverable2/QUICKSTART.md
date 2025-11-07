@@ -25,7 +25,7 @@ export ANTHROPIC_API_KEY='your-api-key-here'
 ### Step 3: Launch the App
 
 ```bash
-python gradio_app.py
+python gradio_app_unified.py
 ```
 
 Open your browser to: **http://localhost:7860**
